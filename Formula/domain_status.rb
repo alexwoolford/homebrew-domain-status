@@ -24,6 +24,6 @@ class DomainStatus < Formula
   end
 
   test do
-    assert_match "domain_status", shell_output("#{bin}/domain_status --version")
+    assert_match "domain_status", shell_output("\#{bin}/domain_status --version")
   end
 end
