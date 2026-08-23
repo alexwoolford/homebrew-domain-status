@@ -1,22 +1,22 @@
 class DomainStatus < Formula
   desc "Concurrent URL status checker that captures comprehensive metadata in SQLite"
   homepage "https://github.com/alexwoolford/domain_status"
-  version "0.1.28"
+  version "0.1.29"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.28/domain_status-macos-aarch64.tar.gz"
-      sha256 "a519620c3ebc5e7a9934722255d14c6e967a2ccb0b26a630176cb2751a8e033e"
+      url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.29/domain_status-macos-aarch64.tar.gz"
+      sha256 "6cd3f83f9feae8e383f55ab63da72b3a8915987d400c8a97fdae46a9f0f67950"
     else
-      url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.28/domain_status-macos-x86_64.tar.gz"
-      sha256 "279d6d7af599995392946a8f090b03c97fc23a9e4df4746f84ae4d166cd2b025"
+      url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.29/domain_status-macos-x86_64.tar.gz"
+      sha256 "71e47c3f2b582650337551abed7d7823875dc7bd1500c405a10fb5c76cf8babf"
     end
   end
 
   on_linux do
-    url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.28/domain_status-linux-x86_64.tar.gz"
-    sha256 "153c17700993727c613ec2f02cd7f339694f63658db119f7ec68d480905532bf"
+    url "https://github.com/alexwoolford/domain_status/releases/download/v0.1.29/domain_status-linux-x86_64.tar.gz"
+    sha256 "8cecf6d6341ac3a5a4175b94de5c1138fc7c23684f53a6250ec63dca3a327d08"
   end
 
   def install
